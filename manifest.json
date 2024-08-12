@@ -549,35 +549,6 @@
         "Built": "R 4.3.2; aarch64-apple-darwin20; 2023-12-23 21:28:15 UTC; unix"
       }
     },
-    "lattice": {
-      "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
-      "description": {
-        "Package": "lattice",
-        "Version": "0.21-9",
-        "Date": "2023-09-30",
-        "Priority": "recommended",
-        "Title": "Trellis Graphics for R",
-        "Authors@R": "c(person(\"Deepayan\", \"Sarkar\", role = c(\"aut\", \"cre\"),\n\t            email = \"deepayan.sarkar@r-project.org\",\n\t\t    comment = c(ORCID = \"0000-0003-4107-1553\")),\n              person(\"Felix\", \"Andrews\", role = \"ctb\"),\n\t      person(\"Kevin\", \"Wright\", role = \"ctb\", comment = \"documentation\"),\n\t      person(\"Neil\", \"Klepeis\", role = \"ctb\"),\n\t      person(\"Johan\", \"Larsson\", role = \"ctb\", comment = \"miscellaneous improvements\"),\n              person(\"Zhijian (Jason)\", \"Wen\", role = \"cph\", comment = \"filled contour code\"),\n              person(\"Paul\", \"Murrell\", role = \"ctb\", email = \"paul@stat.auckland.ac.nz\"),\n\t      person(\"Stefan\", \"Eng\", role = \"ctb\", comment = \"violin plot improvements\"),\n\t      person(\"Achim\", \"Zeileis\", role = \"ctb\", comment = \"modern colors\")\n\t      )",
-        "Description": "A powerful and elegant high-level data visualization\n  system inspired by Trellis graphics, with an emphasis on\n  multivariate data. Lattice is sufficient for typical graphics needs,\n  and is also flexible enough to handle most nonstandard requirements.\n  See ?Lattice for an introduction.",
-        "Depends": "R (>= 4.0.0)",
-        "Suggests": "KernSmooth, MASS, latticeExtra, colorspace",
-        "Imports": "grid, grDevices, graphics, stats, utils",
-        "Enhances": "chron",
-        "LazyLoad": "yes",
-        "LazyData": "yes",
-        "License": "GPL (>= 2)",
-        "URL": "https://lattice.r-forge.r-project.org/",
-        "BugReports": "https://github.com/deepayan/lattice/issues",
-        "NeedsCompilation": "yes",
-        "Packaged": "2023-09-30 22:29:13 UTC; deepayan",
-        "Author": "Deepayan Sarkar [aut, cre] (<https://orcid.org/0000-0003-4107-1553>),\n  Felix Andrews [ctb],\n  Kevin Wright [ctb] (documentation),\n  Neil Klepeis [ctb],\n  Johan Larsson [ctb] (miscellaneous improvements),\n  Zhijian (Jason) Wen [cph] (filled contour code),\n  Paul Murrell [ctb],\n  Stefan Eng [ctb] (violin plot improvements),\n  Achim Zeileis [ctb] (modern colors)",
-        "Maintainer": "Deepayan Sarkar <deepayan.sarkar@r-project.org>",
-        "Repository": "CRAN",
-        "Date/Publication": "2023-10-01 04:40:07 UTC",
-        "Built": "R 4.3.2; aarch64-apple-darwin20; 2023-11-01 22:07:25 UTC; unix"
-      }
-    },
     "lifecycle": {
       "Source": "CRAN",
       "Repository": "https://cran.rstudio.com",
@@ -866,41 +837,6 @@
         "Archs": "sourcetools.so.dSYM"
       }
     },
-    "useself": {
-      "Source": "github",
-      "Repository": null,
-      "description": {
-        "Package": "useself",
-        "Title": "Test quarto vignettes that use the current package",
-        "Version": "0.0.0.9000",
-        "Authors@R": "c(\n    person(\"Hadley\", \"Wickham\", , \"hadley@rstudio.com\", role = c(\"aut\", \"cre\")),\n    person(\"RStudio\", role = c(\"cph\", \"fnd\"))\n  )",
-        "Description": "What the package does (one paragraph).",
-        "License": "MIT + file LICENSE",
-        "Encoding": "UTF-8",
-        "Roxygen": "list(markdown = TRUE)",
-        "RoxygenNote": "7.3.1",
-        "Suggests": "quarto",
-        "VignetteBuilder": "quarto",
-        "URL": "https://github.com/hadley/useself",
-        "BugReports": "https://github.com/hadley/useself/issues",
-        "NeedsCompilation": "no",
-        "Packaged": "2024-08-12 19:10:43 UTC; davidbrodkey",
-        "Author": "Hadley Wickham [aut, cre],\n  RStudio [cph, fnd]",
-        "Maintainer": "Hadley Wickham <hadley@rstudio.com>",
-        "Built": "R 4.3.2; ; 2024-08-12 19:10:44 UTC; unix",
-        "RemoteType": "github",
-        "RemoteHost": "api.github.com",
-        "RemoteRepo": "useself",
-        "RemoteUsername": "hadley",
-        "RemotePkgRef": "hadley/useself",
-        "RemoteRef": "HEAD",
-        "RemoteSha": "e08c185e0243d1322ce7c2077bbf59c00301e342",
-        "GithubRepo": "useself",
-        "GithubUsername": "hadley",
-        "GithubRef": "HEAD",
-        "GithubSHA1": "e08c185e0243d1322ce7c2077bbf59c00301e342"
-      }
-    },
     "withr": {
       "Source": "CRAN",
       "Repository": "https://cran.rstudio.com",
@@ -955,31 +891,6 @@
         "Date/Publication": "2019-04-21 12:20:03 UTC",
         "Built": "R 4.3.0; ; 2023-04-11 04:31:25 UTC; unix"
       }
-    },
-    "zoo": {
-      "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
-      "description": {
-        "Package": "zoo",
-        "Version": "1.8-12",
-        "Date": "2023-04-11",
-        "Title": "S3 Infrastructure for Regular and Irregular Time Series (Z's\nOrdered Observations)",
-        "Authors@R": "c(person(given = \"Achim\", family = \"Zeileis\", role = c(\"aut\", \"cre\"), email = \"Achim.Zeileis@R-project.org\",\n                    comment = c(ORCID = \"0000-0003-0918-3766\")),\n             person(given = \"Gabor\", family = \"Grothendieck\", role = \"aut\", email = \"ggrothendieck@gmail.com\"),\n             person(given = c(\"Jeffrey\", \"A.\"), family = \"Ryan\", role = \"aut\", email = \"jeff.a.ryan@gmail.com\"),\n             person(given = c(\"Joshua\", \"M.\"), family = \"Ulrich\", role = \"ctb\", email = \"josh.m.ulrich@gmail.com\"),\n             person(given = \"Felix\", family = \"Andrews\", role = \"ctb\", email = \"felix@nfrac.org\"))",
-        "Description": "An S3 class with methods for totally ordered indexed\n             observations. It is particularly aimed at irregular time series\n             of numeric vectors/matrices and factors. zoo's key design goals\n             are independence of a particular index/date/time class and\n             consistency with ts and base R by providing methods to extend\n             standard generics.",
-        "Depends": "R (>= 3.1.0), stats",
-        "Suggests": "AER, coda, chron, ggplot2 (>= 3.0.0), mondate, scales,\nstinepack, strucchange, timeDate, timeSeries, tis, tseries, xts",
-        "Imports": "utils, graphics, grDevices, lattice (>= 0.20-27)",
-        "License": "GPL-2 | GPL-3",
-        "URL": "https://zoo.R-Forge.R-project.org/",
-        "NeedsCompilation": "yes",
-        "Packaged": "2023-04-11 21:24:32 UTC; zeileis",
-        "Author": "Achim Zeileis [aut, cre] (<https://orcid.org/0000-0003-0918-3766>),\n  Gabor Grothendieck [aut],\n  Jeffrey A. Ryan [aut],\n  Joshua M. Ulrich [ctb],\n  Felix Andrews [ctb]",
-        "Maintainer": "Achim Zeileis <Achim.Zeileis@R-project.org>",
-        "Repository": "CRAN",
-        "Date/Publication": "2023-04-13 12:13:20 UTC",
-        "Built": "R 4.3.0; aarch64-apple-darwin20; 2023-04-13 12:27:13 UTC; unix",
-        "Archs": "zoo.so.dSYM"
-      }
     }
   },
   "files": {
@@ -987,7 +898,7 @@
       "checksum": "87f9d4ec0ffedff42d9aa1a7e04c6c96"
     },
     "app.R": {
-      "checksum": "e4bf3af9c81c31ad2834b9058768c904"
+      "checksum": "09de0cfe481c9deeee1e1a63a223a03d"
     },
     "DESCRIPTION": {
       "checksum": "2486991b15851c9b3e2011e620d2f8df"
