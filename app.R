@@ -27,7 +27,8 @@ ui <- fluidPage(
 
 server <- function(input, output) {
   story <- eventReactive(input$submit, {
-    cat(glue("User inputs are {input$noun1}\n"), file = stderr())
+    #cat(glue("User inputs are {input$noun1}\n"), file = stderr())
+    cat("GgGGGGGGGG",file=stderr())
     generate_story(input$noun1, input$verb, input$adjective, input$adverb)
   })
   output$story <- renderText({
